@@ -1,0 +1,11 @@
+#sg-pie-chart svg > g:hover path {
+  cursor: pointer;
+}
+
+#sg-pie-chart text {
+  pointer-events: none;
+}
+
+#sg-pie-chart svg > g:hover path:not(.active) {
+  opacity: 0.5;
+}
